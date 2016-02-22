@@ -5,15 +5,15 @@ var app = express();
 var port = 3000;
 
 app.get('/', function(req, res){
-    res.sendfile('index.html');
+    res.sendfile('html/index.html');
 });
 
 app.get('/index.css', function(req, res){
-    res.sendfile('index.css');
+    res.sendfile('css/index.css');
 });
 
 app.get('/index.js', function(req, res){
-    res.sendfile('index.js');
+    res.sendfile('js/index.js');
 });
 
 app.listen(port, function(err){
