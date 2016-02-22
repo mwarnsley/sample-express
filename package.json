@@ -1,0 +1,22 @@
+{
+  "name": "sample-express",
+  "version": "1.0.0",
+  "description": "sample express server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mwarnsley/sample-express.git"
+  },
+  "author": "Marcus Warnsley",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mwarnsley/sample-express/issues"
+  },
+  "homepage": "https://github.com/mwarnsley/sample-express#readme",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
+}
